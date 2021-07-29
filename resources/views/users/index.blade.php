@@ -17,7 +17,7 @@
                     <div class="card border-0 shadow">
                         <div class="card-body">
                             @if ($errors->any())
-                                <div class="alerta alerta-danger">
+                                <div class="alert alert-danger">
                                     @foreach ($errors->all() as $error)
                                         -{{$error}} <br>
                                     @endforeach
